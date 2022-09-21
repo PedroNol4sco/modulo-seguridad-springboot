@@ -1,0 +1,25 @@
+// Crear su repositorio en git por ejemplo le ponen nombre "modulo-seguridad"
+
+
+// Entonces si queremos cargar nuestro cambios a ese repositorio, vamos a nuestra carpeta modulo-seguridad o como la hayan llamado hacemos lo siguiente
+
+// Para iniciar el git
+git init
+
+// Para apuntar al repositorio que queremos cargar los cambios en mi caso es así, de ustedes saldrá con su usuario y nombre de su repositorio
+git remote add origin https://github.com/Luis-Felipe-Dev/modulo-seguridad.git
+
+git remote add origin https://github.com/usuarioGit/nombreRepositorio.git
+
+// para agregar los nuevos archivos
+git add .
+
+// para agregar comentario a nuestros cambios
+git commit -m "comentario de los cambios"
+
+//cargar los cambios
+git push origin master
+
+o
+
+git push origin main
